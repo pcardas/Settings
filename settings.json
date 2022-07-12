@@ -1,0 +1,106 @@
+{
+  // Editor settings
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 28,
+  "editor.minimap.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "expand",
+  "editor.autoClosingBrackets": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.fontSize": 14,
+  "editor.rulers": [80, 120],
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // Prettier settings
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.semi": true,
+  "bracketPairColorizer.depreciation-notice": false,
+
+  // Workbench
+  "workbench.colorTheme": "Omni Owl (Minimal Italics)",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.noFolderBackground": "#333333",
+    "statusBar.debuggingBackground": "#263238"
+  },
+
+  // General settings
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // Extensions
+  "files.autoSave": "onFocusChange",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.defaultProfile.windows": "Cmder",
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "material-icon-theme.folders.associations": {
+    "domain": "core",
+    "infra": "app",
+    "main": "public",
+    "presentation": "connection",
+    "cryptography": "secure",
+    "entities": "class",
+    "repositories": "mappings",
+    "protocols": "resource",
+    "useCases": "components",
+    "subcomponents": "components",
+    "adapters": "connection",
+    "factories": "container",
+    "globals": "global",
+    "ui": "views"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    ".lintstagedrc.json": "tune"
+  },
+  "polacode.transparentBackground": true,
+  "polacode.shadow": "none",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+
+  // Emmet
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+
+  // Discord Presence
+  "discord.lowerDetailsEditing": "Currently on {Lang}land 🌴",
+  "discord.lowerDetailsDebugging": "Currently on {Lang}land 🌴",
+  "discord.largeImageIdling": "😴💤",
+  "discord.detailsIdling": "Just taking a nap...😴💤",
+  "discord.lowerDetailsNoWorkspaceFound": "",
+  "discord.detailsEditing": "Editing a cool file 😎"
+}
